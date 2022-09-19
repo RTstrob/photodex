@@ -19,11 +19,13 @@ $red-region: (#D4BEDA, #E4CEEA);
 $regions: (
   kanto: $purple-region,
   johto: $blue-region,
-  hoenn: $purple-region,
-  sinnoh: $blue-region,
-  unova: $purple-region,
-  kalos: $purple-region,
-  alola: $blue-region,
+  hoenn: $red-region,
+  sinnoh: $purple-region,
+  unova: $blue-region,
+  kalos: $red-region,
+  alola: $purple-region,
+  unknown: $blue-region
   galar: $red-region,
-  unknown: $red-region
+  hisui: $purple-region
+  paldea: $blue-region
 );
