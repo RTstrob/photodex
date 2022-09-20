@@ -16,18 +16,16 @@ $text-error: #DC143C;
 $purple-region: (#8F84F7, #C3BDFB);
 $blue-region: (#9ABAF9, #B7CEFB);
 $red-region: (#D4BEDA, #E4CEEA);
-$green-region: (#BBC7A4,#CBD8B3);
-$black-region: (#2C363F, #3F4D5A);
 $regions: (
   kanto: $purple-region,
   johto: $blue-region,
-  hoenn: $red-region,
-  sinnoh: $purple-region,
-  unova: $blue-region,
-  kalos: $red-region,
+  hoenn: $purple-region,
+  sinnoh: $blue-region,
+  unova: $purple-region,
+  kalos: $blue-region,
   alola: $purple-region,
-  unknown: $blue-region,
-  galar: $red-region,
-  hisui: $purple-region,
-  paldea: $blue-region
+  unknown: $red-region,
+  galar: $blue-region,
+  hisui: $red-region,
+  paldea: $purple-region
 );
