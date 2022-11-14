@@ -249,7 +249,7 @@ function mapPhotos (photos, includeDisplayMetadata) {
   let primaryPhoto
   photos.forEach(photo => {
     const title = photo.title
-    const match = title.match(/\d{3}/)
+    const match = title.match(/\d{4}/)
     if (match) {
       const number = match[0]
       if (!isValidNumber(number)) {
