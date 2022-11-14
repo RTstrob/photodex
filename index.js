@@ -310,7 +310,7 @@ function withDexEntries (generation, photoMap) {
 
 function padNumber (n) {
   let number = n.toString()
-  while (number.length < 3) {
+  while (number.length < 4) {
     number = '0' + number
   }
   return number
