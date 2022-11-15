@@ -9,7 +9,7 @@ Photódex takes a Flickr album of AR snaps from Pokémon GO and displays them in
 The site is powered by the [Flickr API](https://www.flickr.com/services/api/) and requires the corresponding album to be in a particular format:
 
 * The album must be public and contain the word "Photódex" in the title.
-* The individual photo titles must contain the 3-digit Pokémon number (e.g. "001 Bulbasaur").
+* The individual photo titles must contain the 4-digit Pokémon number (e.g. "0001 Bulbasaur").
 
 If you would like to set up your own Photódex, all of the instructions are here: http://www.photodex.io/
 
