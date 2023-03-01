@@ -249,11 +249,9 @@ function mapPhotos (photos, includeDisplayMetadata) {
   let primaryPhoto
   photos.forEach(photo => {
     const title = photo.title
-    const match = title.match(/\d{3,4}/)
-//Paldea Support
-    //const match = title.match(/\d{4}/)
+    const match = title.match(/[0-9]{3,4}/)
     if (match) {
-      const number = match[0]
+      const number = match[0].padStart(4, '0')
       if (!isValidNumber(number)) {
         return
       }
