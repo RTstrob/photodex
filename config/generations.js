@@ -9,5 +9,5 @@ module.exports = Object.freeze([
   { region: 'Unknown', start: 808, end: 809 },
   { region: 'Galar', start: 810, end: 898 },
   { region: 'Hisui', start: 899, end: 905 },
-  { region: 'Paldea', start: 906, end: 1010 }
+  { region: 'Paldea', start: 906, end: 1025 }
 ])
