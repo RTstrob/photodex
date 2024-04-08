@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": "20.5.x"
+    "node": ">=18.14.2"
   },
   "dependencies": {
     "express": "^4.19.2",
