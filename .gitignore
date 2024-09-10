@@ -84,5 +84,7 @@ typings/
 !.vscode/launch.json
 !.vscode/extensions.json
 
+#Debugging zone
+*.py
 
 # End of https://www.gitignore.io/api/node,visualstudiocode
