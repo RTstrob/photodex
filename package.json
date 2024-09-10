@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Gotta snap 'em all!",
   "main": "index.js",
-  "repository": "https://github.com/jamiehumphries/photodex",
+  "repository": "https://github.com/rtstrob/photodex",
   "author": "Jamie Humphries",
   "license": "MIT",
   "private": true,
