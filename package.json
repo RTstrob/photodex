@@ -15,8 +15,7 @@
     "express-basic-auth": "^1.2.1",
     "express-handlebars": "^5.3.5",
     "flickrapi": "^0.6.2",
-    "memory-cache": "^0.2.0",
-    "sass": "^1.74.1"
+    "memory-cache": "^0.2.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
@@ -33,7 +32,7 @@
   "scripts": {
     "build": "npm run sass",
     "debug": "nodemon --exec \"heroku local debug\" -e handlebars,js",
-    "livereload": "livereload . --debug --wait 1000 --extraExts handlebars",
+    "livereload": "livereload public views --debug --wait 1000 --extraExts handlebars",
     "sass": "sass styles/main.scss public/css/main.css",
     "sass:watch": "sass --watch styles:public/css",
     "start": "npm-run-all sass --parallel debug sass:watch livereload"
