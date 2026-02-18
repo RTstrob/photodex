@@ -35,7 +35,7 @@
     "debug": "nodemon --exec \"heroku local debug\" -e handlebars,js",
     "livereload": "livereload . --debug --wait 1000 --extraExts handlebars",
     "sass": "sass styles/main.scss public/css/main.css",
-    "sass:watch": "sass styles/main.scss public/css/main.css --watch",
+    "sass:watch": "sass --watch styles:public/css",
     "start": "npm-run-all sass --parallel debug sass:watch livereload"
   }
 }
